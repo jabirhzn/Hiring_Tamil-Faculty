@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>We're Hiring — Malayalam Faculty / Trainer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+Malayalam:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#14181c;
+    --ink-soft:#4b525a;
+    --paper:#f6f4ef;
+    --paper-dim:#eae7de;
+    --amber:#e2a53d;
+    --amber-deep:#c8871f;
+    --line:#dedad0;
+    --font-head:'Barlow Condensed', sans-serif;
+    --font-body:'Inter', 'Noto Sans Malayalam', sans-serif;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --ink:#f2ede2;
+      --ink-soft:#b8b2a3;
+      --paper:#14181c;
+      --paper-dim:#1c2126;
+      --line:#333a41;
+    }
+  }
+  :root[data-theme="dark"]{
+    --ink:#f2ede2;
+    --ink-soft:#b8b2a3;
+    --paper:#14181c;
+    --paper-dim:#1c2126;
+    --line:#333a41;
+  }
+
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--font-body);
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{max-width:100%;}
+
+  .wrap{
+    max-width:760px;
+    margin:0 auto;
+    padding:0 24px;
+  }
+
+  /* ---------- HERO ---------- */
+  .hero{
+    padding:80px 0 48px;
+    border-bottom:1px solid var(--line);
+  }
+  .hero .kicker{
+    font-weight:600;
+    font-size:15px;
+    color:var(--amber-deep);
+    margin:0 0 14px;
+  }
+  .hero h1{
+    font-family:var(--font-head);
+    font-weight:700;
+    font-size:clamp(40px, 8vw, 64px);
+    line-height:1.02;
+    letter-spacing:-0.005em;
+    margin:0 0 10px;
+  }
+  .hero .subhead{
+    font-size:19px;
+    color:var(--ink-soft);
+    margin:0 0 28px;
+  }
+  .tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px 24px;
+    font-size:15px;
+    margin:0 0 32px;
+  }
+  .tags span{white-space:nowrap;}
+  .apply-btn{
+    display:inline-block;
+    text-decoration:none;
+    background:var(--amber);
+    color:#14181c;
+    font-weight:600;
+    font-size:16px;
+    padding:13px 28px;
+    border-radius:4px;
+    transition:background 0.15s ease;
+  }
+  .apply-btn:hover{background:var(--amber-deep);}
+  .apply-btn:focus-visible{
+    outline:2px solid var(--amber-deep);
+    outline-offset:2px;
+  }
+
+  /* ---------- DETAILS ---------- */
+  .details{
+    padding:48px 0 40px;
+  }
+  .block{
+    padding:32px 0;
+    border-top:1px solid var(--line);
+  }
+  .block:last-child{
+    border-bottom:1px solid var(--line);
+  }
+  .block h2{
+    font-family:var(--font-head);
+    font-weight:700;
+    font-size:26px;
+    margin:0 0 18px;
+  }
+  .block ul{
+    margin:0;
+    padding-left:20px;
+  }
+  .block li{
+    margin-bottom:10px;
+    max-width:600px;
+  }
+  .block li:last-child{margin-bottom:0;}
+
+  .must-have{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+  }
+  .pill{
+    border:1px solid var(--line);
+    border-radius:100px;
+    padding:8px 16px;
+    font-size:14px;
+    font-weight:500;
+  }
+
+  .apply-again{
+    padding:44px 0 88px;
+    text-align:center;
+  }
+  .apply-again p{
+    color:var(--ink-soft);
+    margin:0 0 18px;
+  }
+
+  footer{
+    padding:28px 0 48px;
+    font-size:13px;
+    color:var(--ink-soft);
+    border-top:1px solid var(--line);
+  }
+
+  @media (max-width:600px){
+    .hero{padding:56px 0 40px;}
+    .apply-btn{width:100%;text-align:center;}
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    .apply-btn{transition:none;}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">We're hiring · Fitness Education · Greens Fitness Academy</p>
+    <h1>Malayalam Faculty / Trainer</h1>
+    <p class="subhead">Teach fitness certification candidates in Malayalam — from technical concepts to exam-ready practicals.</p>
+    <div class="tags">
+      <span>📍 Full-Time</span>
+      <span>💻 Hybrid</span>
+    </div>
+    <a class="apply-btn" id="apply-btn-top" href="APPLY_FORM_LINK" target="_blank" rel="noopener">Apply now</a>
+  </div>
+</header>
+
+<main class="details">
+  <div class="wrap">
+
+    <div class="block">
+      <h2>Role</h2>
+      <ul>
+        <li>Translate English training materials and technical fitness content into Malayalam</li>
+        <li>Conduct fitness education &amp; trainer-training sessions in Malayalam</li>
+        <li>Explain fitness concepts &amp; technical terminology clearly</li>
+        <li>Train candidates preparing for fitness certifications</li>
+        <li>Prepare lessons, presentations &amp; training materials</li>
+        <li>Conduct assessments, revision &amp; doubt-clearing sessions</li>
+        <li>Support certification exam &amp; practical preparation</li>
+      </ul>
+    </div>
+
+    <div class="block">
+      <h2>Eligibility</h2>
+      <ul>
+        <li>🎓 Bachelor's/Master's in Malayalam, Education, Fitness, Physical Education or a relevant field</li>
+        <li>⭐ Fitness / Personal Training background preferred</li>
+        <li>⭐ Teaching or training experience is an advantage</li>
+      </ul>
+    </div>
+
+    <div class="block">
+      <h2>Must have</h2>
+      <div class="must-have">
+        <span class="pill">Excellent Malayalam &amp; English Communication</span>
+        <span class="pill">Teaching Skills</span>
+        <span class="pill">Fitness Knowledge</span>
+        <span class="pill">Presentation Skills</span>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<div class="apply-again">
+  <p>Ready to apply?</p>
+  <a class="apply-btn" id="apply-btn-bottom" href="APPLY_FORM_LINK" target="_blank" rel="noopener">Apply now</a>
+</div>
+
+<footer>
+  <div class="wrap">Greens Fitness Academy · Tirur, Kerala</div>
+</footer>
+
+<script>
+  /* ======================================================
+     EDIT THE GOOGLE FORM LINK HERE — this one line controls
+     both "Apply now" buttons on the page.
+     ====================================================== */
+  const APPLY_FORM_LINK = "https://forms.google.com/REPLACE_WITH_YOUR_FORM_LINK";
+  /* ====================================================== */
+
+  document.getElementById('apply-btn-top').href = APPLY_FORM_LINK;
+  document.getElementById('apply-btn-bottom').href = APPLY_FORM_LINK;
+</script>
+
+</body>
+</html>
